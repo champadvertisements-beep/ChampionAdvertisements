@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Champion Advertisements — signage and general advertising solutions in Addis Ababa, Ethiopia.">
+<title>Champion Advertisements | Signage & Advertising</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#f5b900;--gold2:#ffd24a;--black:#07090b;--dark:#0d1115;--white:#f7f7f5;--muted:#aab1b8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--black);color:var(--white);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+header{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(5,7,9,.86);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.06em}.mark{width:43px;height:43px;border:3px solid var(--gold);border-radius:10px;display:grid;place-items:center;color:var(--gold);font-size:24px;font-weight:900;position:relative}.mark:before{content:"♛";position:absolute;top:-20px;font-size:17px}.brand small{display:block;color:var(--gold);font-size:10px;letter-spacing:.16em;margin-top:-4px}.links{display:flex;gap:30px;font-size:13px;font-weight:700}.links a:hover{color:var(--gold)}.menu{display:none}
+.hero{min-height:720px;padding-top:76px;display:grid;align-items:center;background:radial-gradient(circle at 78% 38%,rgba(245,185,0,.18),transparent 25%),linear-gradient(105deg,#06080a 0%,#0c1218 55%,#12181d 100%);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-10%;top:15%;width:58%;height:70%;background:linear-gradient(145deg,transparent 10%,rgba(245,185,0,.10),transparent 60%),repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0 2px,transparent 2px 13px);transform:skewX(-12deg)}
+.hero-content{position:relative;z-index:2;max-width:650px}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.18em;font-size:13px}.hero h1{font-size:clamp(48px,8vw,88px);line-height:.96;margin:18px 0 24px;letter-spacing:-.055em}.hero h1 span{color:var(--gold)}.hero p{color:#d1d5d8;max-width:560px;font-size:18px}.btn{display:inline-flex;align-items:center;gap:10px;margin-top:20px;padding:14px 21px;border:1px solid var(--gold);border-radius:8px;background:var(--gold);color:#101010;font-weight:800}.btn:hover{background:var(--gold2);transform:translateY(-1px)}
+section{padding:90px 0}.dark{background:#0a0d10}.section-label{text-align:center;color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.18em}.section-title{text-align:center;font-size:42px;line-height:1.05;margin:12px 0 45px;letter-spacing:-.04em}.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about-visual{min-height:420px;border-radius:14px;background:linear-gradient(145deg,#151a1f,#080a0c);border:1px solid rgba(245,185,0,.35);display:grid;place-items:center;position:relative;overflow:hidden}.about-visual:before{content:"CHAMPION";font-size:clamp(45px,7vw,85px);font-weight:900;color:rgba(245,185,0,.08);position:absolute;transform:rotate(-18deg)}.big-mark{font-size:170px;color:var(--gold);font-weight:900;text-shadow:0 0 35px rgba(245,185,0,.25)}.about h2{font-size:44px;line-height:1.05;margin:0 0 20px}.about h2 span{color:var(--gold)}.about p{color:#b8c0c6}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}.stat{border-left:2px solid var(--gold);padding-left:14px}.stat strong{display:block;font-size:25px}.stat span{font-size:12px;color:var(--muted)}
+.services{background:#f2f1ed;color:#111}.services .section-label{color:#a77700}.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{padding:34px;border:1px solid #d2cec4;border-radius:14px;background:white}.icon{width:54px;height:54px;border-radius:10px;background:#111;color:var(--gold);display:grid;place-items:center;font-size:25px;margin-bottom:18px}.card h3{margin:0 0 8px;font-size:22px}.card p{margin:0;color:#555}
+.banner{padding:55px 0;background:linear-gradient(100deg,#0a0d10,#171c21);border-top:1px solid rgba(245,185,0,.4);border-bottom:1px solid rgba(245,185,0,.4)}.banner-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.slogan-script{font-style:italic;color:var(--gold);font-size:25px}.banner h2{margin:4px 0 0;font-size:34px;line-height:1.1}
+.contact{background:#07090b}.contact-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:70px}.contact h2{font-size:48px;line-height:1;margin:10px 0 20px}.contact p{color:var(--muted)}.contact-list{margin-top:30px;display:grid;gap:18px}.contact-item{display:flex;gap:15px;align-items:flex-start}.contact-icon{width:38px;height:38px;border:1px solid var(--gold);color:var(--gold);border-radius:50%;display:grid;place-items:center;font-weight:800;flex:none}.contact-item small{display:block;color:var(--muted);font-size:11px}.contact-item strong{font-size:16px}.hours{border-left:1px solid #30353a;padding-left:40px}.hours h3{color:var(--gold)}footer{padding:25px 0;border-top:1px solid #20252a;color:#737b82;font-size:12px;text-align:center}
+@media(max-width:760px){.links{display:none}.menu{display:block;border:1px solid #333;background:none;color:white;padding:8px 10px;border-radius:6px}.hero{min-height:650px}.hero h1{font-size:54px}.about,.contact-grid,.cards{grid-template-columns:1fr}.about-visual{min-height:300px}.banner-inner{display:block}.section-title{font-size:35px}.hours{border-left:0;border-top:1px solid #30353a;padding:30px 0 0;margin-top:30px}.stats{grid-template-columns:1fr 1fr 1fr}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#home"><div class="mark">C</div><div>CHAMPION<small>ADVERTISEMENTS</small></div></a>
+<nav class="links"><a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#contact">CONTACT</a></nav>
+<button class="menu" onclick="document.querySelector('.links').classList.toggle('show')">MENU</button>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="container hero-content">
+<div class="eyebrow">SIGNAGE • BRANDING • ADVERTISING</div>
+<h1>Make your brand <span>visible.</span></h1>
+<p>Creative signage and general advertising solutions designed to help businesses get noticed, communicate clearly, and build a stronger visual presence.</p>
+<a class="btn" href="https://t.me/+251911102011" target="_blank" rel="noopener">✈ CONTACT US ON TELEGRAM</a>
+</div></section>
+
+<section class="dark" id="about"><div class="container about">
+<div class="about-visual"><div class="big-mark">C</div></div>
+<div><div class="section-label" style="text-align:left">ABOUT US</div><h2>Building brands.<br><span>Creating impact.</span></h2>
+<p>Champion Advertisements is a creative advertising and signage company focused on helping businesses present themselves with confidence. We combine practical production knowledge with thoughtful visual design to create advertising solutions that are clear, durable, and memorable.</p>
+<p>From storefront identification to promotional advertising materials, our goal is simple: turn your business identity into a strong visual presence that people can recognize.</p>
+<div class="stats"><div class="stat"><strong>Creative</strong><span>Design-focused solutions</span></div><div class="stat"><strong>Practical</strong><span>Built for real businesses</span></div><div class="stat"><strong>Focused</strong><span>Quality &amp; visibility</span></div></div>
+</div></div></section>
+
+<section class="services" id="services"><div class="container">
+<div class="section-label">OUR SERVICES</div><h2 class="section-title">We make it. You brand it.</h2>
+<div class="cards">
+<article class="card"><div class="icon">▱</div><h3>Signage</h3><p>Storefront signs, illuminated signs, 3D letters, directional signs, branded panels, and other visual identification solutions.</p></article>
+<article class="card"><div class="icon">▣</div><h3>General Advertisement Works</h3><p>Banners, billboards, vehicle branding, window graphics, promotional displays, printing, and advertising materials tailored to your needs.</p></article>
+</div></div></section>
+
+<section class="banner"><div class="container banner-inner"><div><div class="slogan-script">We don't just make signs.</div><h2>We build your brand's presence.</h2></div><a class="btn" href="#contact">LET'S WORK TOGETHER</a></div></section>
+
+<section class="contact" id="contact"><div class="container contact-grid">
+<div><div class="section-label" style="text-align:left">CONTACT US</div><h2>Let's bring your<br><span style="color:var(--gold)">brand to life.</span></h2><p>Tell us what you need and let's discuss the right advertising or signage solution for your business.</p>
+<div class="contact-list">
+<div class="contact-item"><div class="contact-icon">✈</div><div><small>TELEGRAM</small><strong>+251 911 102 011</strong></div></div>
+<div class="contact-item"><div class="contact-icon">@</div><div><small>EMAIL</small><strong>champadvertisements@gmail.com</strong></div></div>
+<div class="contact-item"><div class="contact-icon">⌖</div><div><small>LOCATION</small><strong>Addis Ababa, Ethiopia</strong></div></div>
+</div></div>
+<div class="hours"><h3>CHAMPION ADVERTISEMENTS</h3><p>Signage &amp; General Advertisement Works</p><p>For inquiries, quotations, and project discussions, contact us directly through Telegram or email.</p><a class="btn" href="mailto:champadvertisements@gmail.com">✉ EMAIL US</a></div>
+</div></section>
+</main>
+<footer>© 2026 Champion Advertisements. All rights reserved.</footer>
+<script>
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.links').classList.remove('show')));
+</script>
+</body></html>
